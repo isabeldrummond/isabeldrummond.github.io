@@ -24,6 +24,30 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+	details {
+		user-select: none;
+	  }
+	  
+	  details>summary span.icon {
+		width: 24px;
+		height: 24px;
+		transition: all 0.3s;
+		margin-left: auto;
+	  }
+	  
+	  details[open] summary span.icon {
+		transform: rotate(180deg);
+	  }
+	  
+	  summary {
+		display: flex;
+		cursor: pointer;
+	  }
+	  
+	  summary::-webkit-details-marker {
+		display: none;
+	  }
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -3907,3 +3931,27 @@ input, select, textarea {
 			}
 
 		}
+
+/* Text Expansion */
+
+	details {
+		border: 1px solid #aaa;
+		border-radius: 4px;
+		padding: 0.5em 0.5em 0;
+	}
+	
+	summary {
+		font-weight: bold;
+		margin: -0.5em -0.5em 0;
+		padding: 0.5em;
+	}
+	
+	details[open] {
+		padding: 0.5em;
+	}
+	
+	details[open] summary {
+		border-bottom: 1px solid #aaa;
+		margin-bottom: 0.5em;
+	}
+	
