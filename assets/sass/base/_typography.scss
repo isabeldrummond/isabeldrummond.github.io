@@ -53,6 +53,98 @@
 	p {
 		margin: 0 0 _size(element-margin) 0;
 	}
+	pw {
+		color: #ffffff;
+		margin: 0 0 2em 0;
+	}
+
+	h1w, h2w, h3w, h4w, h5w, h6w {
+		color: #ffffff;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+
+		h1w a, h2w a, h3w a, h4w a, h5w a, h6w a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h1w {
+		font-size: 2.75em;
+	}
+
+		h1w.major {
+			margin: 0 0 1.3em 0;
+			position: relative;
+			padding-bottom: 0.35em;
+		}
+
+			h1w.major:after {
+				background-image: -moz-linear-gradient(to right, #879486, #879486);
+				background-image: -webkit-linear-gradient(to right, #879486, #879486);
+				background-image: -ms-linear-gradient(to right, #879486, #879486);
+				background-image: linear-gradient(to right, #879486, #948686);
+				-moz-transition: max-width 0.2s ease;
+				-webkit-transition: max-width 0.2s ease;
+				-ms-transition: max-width 0.2s ease;
+				transition: max-width 0.2s ease;
+				border-radius: 0.2em;
+				bottom: 0;
+				content: '';
+				height: 0.05em;
+				position: absolute;
+				right: 0;
+				width: 100%;
+			}
+
+	h2w {
+		font-size: 1.75em;
+	}
+
+	h3w {
+		font-size: 1.1em;
+	}
+
+	h4w {
+		font-size: 1em;
+	}
+
+	h5w {
+		font-size: 0.8em;
+	}
+
+	h6w {
+		font-size: 0.6em;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		h1w {
+			font-size: 2em;
+		}
+
+		h2w {
+			font-size: 1.25em;
+		}
+
+		h3w {
+			font-size: 1em;
+		}
+
+		h4w {
+			font-size: 0.8em;
+		}
+
+		h5w {
+			font-size: 0.6em;
+		}
+
+		h6w {
+			font-size: 0.6em;
+		}
+
+	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
