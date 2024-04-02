@@ -4030,7 +4030,8 @@ input, select, textarea {
 /* Text Expansion */
 
 	details {
-		border: 1px solid #aaa;
+		border: 1px solid #c7c7c7;
+		background-color: #d1d1d1;
 		border-radius: 4px;
 		padding: 0.5em 0.5em 0;
 	}
@@ -4047,6 +4048,7 @@ input, select, textarea {
 	
 	details[open] summary {
 		border-bottom: 1px solid #aaa;
+		background-color: #d1d1d1;
 		margin-bottom: 0.5em;
 	}
 	
