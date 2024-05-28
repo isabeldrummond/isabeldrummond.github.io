@@ -3366,11 +3366,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #bbbbbb;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #bbbbbb;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3 {
@@ -4031,8 +4031,8 @@ input, select, textarea {
 /* Text Expansion */
 
 	details {
-		border: 1px solid #c7c7c7;
-		background-color: #c7c7c7;
+		border: 1px solid #e3e2e2;
+		background-color: #eee;
 		border-radius: 4px;
 		padding: 0.5em 0.5em 0;
 	}
@@ -4048,8 +4048,8 @@ input, select, textarea {
 	}
 	
 	details[open] summary {
-		border-bottom: 1px solid #aaaaaa;
-		background-color: #c7c7c7;
+		border-bottom: 1px solid #e3e2e2;
+		background-color: #eee;
 		margin-bottom: 0.5em;
 	}
 	
