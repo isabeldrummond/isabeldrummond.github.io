@@ -1945,7 +1945,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: border-color 0.2s ease;
+		-moz-transition: border-color 0.2s ease; 
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
@@ -1956,7 +1956,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
+		font-size: 0.7em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
@@ -3358,23 +3358,24 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #4d5a43;
+			background-color: #3C4931;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #4d5a43;
+			background-color: #3C4931;
 		}
 
 		.wrapper.style2 {
-			background-color: #e1e1e1;
+			background-color: #bbbbbb;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #e1e1e1;
+			background-color: #bbbbbb;
 		}
 
 		.wrapper.style3 {
 			background-color: #4d5a43;
+
 		}
 
 		.wrapper.style3-alt {
@@ -4031,7 +4032,7 @@ input, select, textarea {
 
 	details {
 		border: 1px solid #c7c7c7;
-		background-color: #d1d1d1;
+		background-color: #c7c7c7;
 		border-radius: 4px;
 		padding: 0.5em 0.5em 0;
 	}
@@ -4047,8 +4048,8 @@ input, select, textarea {
 	}
 	
 	details[open] summary {
-		border-bottom: 1px solid #aaa;
-		background-color: #d1d1d1;
+		border-bottom: 1px solid #aaaaaa;
+		background-color: #c7c7c7;
 		margin-bottom: 0.5em;
 	}
 	
